@@ -21,7 +21,7 @@
     <a href="https://github.com/OA7/Todo-App-JS"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://oa7.github.io/Todo-App-JS/">View Demo</a>
     ·
     <a href="https://github.com/OA7/Todo-App-JS/issues">Report Bug</a>
     ·
