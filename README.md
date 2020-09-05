@@ -125,4 +125,4 @@ Give a ⭐️ if you like this project!
 [issues-url]: https://github.com/OA7/Todo-App-JS/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/osong-agberndifor
-[product-screenshot]: dist/images/screen.png
+[product-screenshot]: dist/images/screen.gif
