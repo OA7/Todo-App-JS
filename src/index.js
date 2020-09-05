@@ -35,7 +35,6 @@ const checkForm = () => {
 };
 
 
-
 const classList = (btn) => {
   btn.classList.add('todo-btn');
 };
@@ -65,6 +64,7 @@ const editForm = (btn, listed) => {
       saveForm(listed);
       store();
       addForm.classList.add('d-none');
+      // eslint-disable-next-line no-restricted-globals
       location.reload();
     });
   });
@@ -85,6 +85,7 @@ const viewDetails = (p, item, list, index) => {
   btn2.addEventListener('click', () => {
     item.list.splice(index, 1);
     store();
+    // eslint-disable-next-line no-restricted-globals
     location.reload();
   });
   p.appendChild(div1);
@@ -164,6 +165,7 @@ const delItem = (btn) => {
     const num = parseInt(btn.id, 10);
     mylist.splice(num, 1);
     store();
+    // eslint-disable-next-line no-restricted-globals
     location.reload();
   });
 };
@@ -219,7 +221,7 @@ function newProject() {
   });
 
   create.addEventListener('click', () => {
-    if ( input.value == null || input.value === ''  ) return;
+    if (input.value == null || input.value === '') return;
     const newAdded = project(input.value, []);
     addItem(newAdded, mylist);
     store();
